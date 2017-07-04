@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="s10171744d.qrcode.MainActivity"
+    android:orientation="vertical">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#dd8da0"
+        fancy:fb_focusColor="#f8b9b7"
+        fancy:fb_fontIconResource="&#xf04b;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="SCAN QR"
+        fancy:fb_textColor="#FFFFFF"
+        fancy:fb_textSize="69dp"
+        android:id="@+id/btnScan"></mehdi.sakout.fancybuttons.FancyButton>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/txtQRCode"/>
+
+</LinearLayout>
